@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcianito"
+    android:padding="@dimen/textview_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/Bienvenida"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="#0DFFFFFF"
+        android:textSize="@dimen/large_text_size"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+        android:layout_width="220dp"
+        android:layout_height="77dp"
+        android:background="@drawable/button_border"
+        android:singleLine="false"
+        android:text="@string/Boton"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
